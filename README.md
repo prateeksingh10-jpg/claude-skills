@@ -4,7 +4,19 @@ Custom Claude Code skills for Deloitte consulting work.
 
 ## Skills
 
-### `deloitte-slides`
+### `coco-pptx` — `global-commands/coco-pptx.md`
+Build or edit **CoCo / Cloud Practice** PowerPoint decks. Enforces the verified type scale from `CoCo_Leaders_Hot_Topic_v2.pptx` (April 2026).
+- Open Sans Bold throughout — cover 28pt, content titles 22pt, body 12–14pt
+- No footers, no shadows, no teal top bars on cards
+- Two-level header rule (title + sub-header on every content slide)
+- Invoke with `/coco-pptx` in Claude Code
+
+**Use for:** CoCo programme decks, Cloud Practice internal/practitioner decks.
+**Not for:** Formal client-facing Deloitte decks — use `deloitte-pptx` (Anthropic marketplace) for those.
+
+---
+
+### `deloitte-slides` — `deloitte-slides/SKILL.md`
 Build Deloitte-branded presentations following the official merged Deloitte brand style guide.
 - Covers both **Standard Deloitte** and **Cloud Practice** brand variants
 - Enforces typography, color palette, slide layouts, footers, and icon rules
@@ -25,4 +37,6 @@ The merged Deloitte brand style guide (Standard + Cloud Practice) is at:
 `deloitte-slides/references/deloitte_brand_style_guide.md`
 
 Source files are maintained at:
-`C:\Users\prateesingh\Desktop\AC\Styling Guide\`
+`C:\Users\prateesingh\Desktop\AC\style-guides\Styling Guide\`
+
+Last updated: April 2026 — type scale verified against `CoCo_Leaders_Hot_Topic_v2.pptx`.
